@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    margin: 0;
-    background: #fff;
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        scrollbar-width: none;
+    }
 }
 
-.x-center {
-    left: 75%;
-    transform: translateX(-50%);
-}
+

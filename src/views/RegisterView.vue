@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>This is overview view</h1>
-  </div>
+  <h1>This is register view</h1>
 </template>
 
 <script setup></script>

@@ -1,6 +1,7 @@
 <template>
-  <div>This is manage view</div>
+  <h1>This is login view</h1>
 </template>
+
 <script setup></script>
 
 <style scoped></style>
